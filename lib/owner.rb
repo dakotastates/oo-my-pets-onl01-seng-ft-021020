@@ -50,6 +50,7 @@ class Owner
       cat.mood = "nervous"
       cat.owner = nil
     end
+    @@pets = {:cats => [], :dogs => []}
   end
   
   def list_pets
